@@ -10,8 +10,9 @@
     margin: 0 auto;
     position: relative;
 
-}.text1 {
-    margin-left: 50px;
+}
+.text1 {
+    margin-left: 150px;
     text-decoration: none;
     color: #929BA3;
     font-size: 16px;
@@ -35,17 +36,17 @@
 
 .profile-text {
     background-color: #DFE2ED;
-    height: 100px;
+    height: 120px;
 }
 
 .text2 {
-    margin-left: 50px;
+    margin-left: 150px;
     font-size: 28px;
     margin-top: 5px;
 }
 
 .text1 a {
-    margin-left: 50px;
+    margin-left: 150px;
     text-decoration: none;
     color: #929BA3;
     font-size: 14px;
@@ -56,9 +57,9 @@
 }
 
 .text2 {
-    margin-left: 50px;
+    margin-left: 150px;
     font-size: 28px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .avatar-menu {

@@ -2,7 +2,10 @@ import Main from "./components/main/main";
 import Footer from "./components/footer/footer";
 import Clubs from "./components/clubs/clubs";
 import Journal from "./components/journal/journal";
+import Grades from "./components/grades/grades";
 import {Route, Routes} from "react-router";
+import Task from "./components/task/task";
+import Course from "./components/courses/courses";
 import './index.css'
 import { LoginConnected } from "./components/login/loginContainer";
 import { HeaderConnected } from "./components/header/headerContainer";
@@ -21,6 +24,9 @@ function App() {
         <Route exact path="/register" element={<RegistConnected />} />
         <Route exact path="/journal" element={<Journal />} />
         <Route exact path="/clubs" element={<Clubs />} />
+        <Route exact path="/grades" element={<Grades />} />
+        <Route exact path="/task" element={<Task />} />
+        <Route exact path="/course" element={<Course />} />
 
       </Routes>
       <Footer />

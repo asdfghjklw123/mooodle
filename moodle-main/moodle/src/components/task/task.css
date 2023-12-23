@@ -1,0 +1,115 @@
+.task-main {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.task-text {
+    background-color: #DFE2ED;
+    height: 120px;
+    margin-bottom: 20px;
+}
+
+.task-menu {
+    height: 1000px;
+    width: 55%;
+    margin-left: 100px;
+    border: 1px solid rgba(172, 172, 172, 0.5);
+}
+
+#otvet {
+    margin-top: 70px;
+    margin-left: 20px;
+    font-size: 24px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+
+
+#otvet2 {
+    margin-top: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.task-table {
+    width: 95%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin-left: 20px;
+}
+
+.task-table td {
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.task-table .table-label {
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+    padding-right: 15px;
+    width: 160px;
+    border-right: 1px solid #ddd;
+}
+
+
+.task-sidebar {
+    border: 1px solid rgba(172, 172, 172, 0.5);
+    height: 510px;
+    width: 20%;
+    margin-left: 60px;
+}
+
+.sidebar-card {
+    border-bottom: 1px solid rgba(172, 172, 172, 0.5);
+    padding: 15px;
+    display: flex;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.sidebar-img img {
+    margin-left: 20px;
+    height: 20px;
+    width: 25px;
+    margin-right: 5px;
+}
+
+.main-task-menu {
+    display: flex;
+}
+
+.sidebar-text {
+    font-size: 20px;
+}
+
+#card3 {
+    border-bottom: 0;
+}
+
+.sidebar-card:hover {
+    background-color: #DFE2ED;
+}
+
+.sidebar-card:active,
+.sidebar-card:focus {
+    outline: none;
+    /* Убираем рамку фокуса, если такая есть */
+    color: #551A8B;
+    /* Наследуем цвет текста */
+    text-decoration: none;
+    /* Убираем подчеркивание активных ссылок */
+}
+
+.task-table tr:nth-child(even) td {
+    background-color: #fff;
+    /* Белый цвет для четных строк */
+}
+
+.task-table tr:nth-child(odd) td {
+    background-color: #DFE2ED;
+    /* Синий цвет для нечетных строк */
+}

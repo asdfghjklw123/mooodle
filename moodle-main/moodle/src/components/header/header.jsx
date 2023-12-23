@@ -43,16 +43,24 @@ export default function Header(props) {
                   </div>
                 )}
               </a>
-              <a href="#!" id='line-1' className="nav__link">CLUBS</a>
+              <NavLink to="/clubs" id='line-1' className="nav__link">CLUBS</NavLink>
             </nav>
           </div>
           <div className="header-inner2">
             <nav className='navbar2'>
               {
-                props.auth.userData.length === 0 ? <NavLink id='line-2' to="/login" className='nav__link2'>LOGIN | REGISTER</NavLink> : <NavLink id='line-2' to="/profile" className='nav__link2'>{props.auth.data.first_name} {props.auth.data.last_name}</NavLink>
+                props.auth.userData.length === 0 ?
+                  <>
+                    <NavLink id='line-2' to="/login" className='nav__link2'>LOGIN |</NavLink>
+                    
+                    <NavLink id='line-2' to="/register" className='nav__link2'>REGISTER</NavLink>
+                  </> :
+                  <NavLink id='line-2' to="/profile" className='nav__link2'>{props.auth.data.first_name} {props.auth.data.last_name}</NavLink>
               }
               <a href="./" className='nav__link2'><img src={img} alt="" /></a>
             </nav>
+
+
           </div>
         </div>
       </div>

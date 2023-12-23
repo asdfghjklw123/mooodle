@@ -9,7 +9,7 @@ export default function Profile(props) {
         <div className="profile">
             <div className="container">
                 <div className="main">
-                <div className="profile-text">
+                    <div className="profile-text">
                         <div className="textnav">
                             <NavLink to="/" className="text1">Главная →</NavLink>
                             <div className="text-vkladka">Профиль</div>
