@@ -5,7 +5,7 @@
 
 .courses-text {
     background-color: #DFE2ED;
-    height: 120px;
+    height: 150px;
     margin-bottom: 50px;
 }
 
@@ -71,6 +71,7 @@
     font-size: 20px;
 }
 
+
 #course-card3 {
     border-bottom: 0;
 }
@@ -87,4 +88,12 @@
     /* Наследуем цвет текста */
     text-decoration: none;
     /* Убираем подчеркивание активных ссылок */
+}
+.course-sidebar-card.selected {
+    background-color: #0F6FC5;
+    color: white;
+}
+
+.course-sidebar-card.selected .course-sidebar-img img {
+    src: url(white-cap.svg);
 }

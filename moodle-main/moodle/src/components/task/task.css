@@ -86,7 +86,12 @@
     font-size: 20px;
 }
 
-#card3 {
+#task-card1 {
+    background-color: #0F6FC5;
+    color: white;
+}
+
+#task-card3 {
     border-bottom: 0;
 }
 
@@ -113,3 +118,68 @@
     background-color: #DFE2ED;
     /* Синий цвет для нечетных строк */
 }
+
+
+
+/* Product Card */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Main Container */
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Drop Zone */
+  .drop-zone {
+    width: 300px;
+    height: 200px;
+    border: 2px dashed #FF5A5F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  /* Drop Zone Text */
+  .drop-zone-text {
+    color: #FF5A5F;
+    font-size: 16px;
+  }
+  
+  /* Highlighted Drop Zone */
+  .drop-zone.dragged-over {
+    background-color: rgba(255, 90, 95, 0.2);
+  }
+  
+  /* Drop Zone Icons */
+  .drop-zone-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .upload-icon {
+    height: 48px;  /* Increased icon size */
+    width: 48px;   /* Increased icon size */
+    margin-bottom: 10px;
+  }
+  
+  /* Drop Zone Text */
+  .drop-zone-text {
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px; /* Added to separate text from icons */
+  }

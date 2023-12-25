@@ -6,6 +6,7 @@ import Grades from "./components/grades/grades";
 import {Route, Routes} from "react-router";
 import Task from "./components/task/task";
 import Course from "./components/courses/courses";
+import Rating_Teacher from "./components/rating/rating";
 import './index.css'
 import { LoginConnected } from "./components/login/loginContainer";
 import { HeaderConnected } from "./components/header/headerContainer";
@@ -27,6 +28,7 @@ function App() {
         <Route exact path="/grades" element={<Grades />} />
         <Route exact path="/task" element={<Task />} />
         <Route exact path="/course" element={<Course />} />
+        <Route exact path="/rating" element={<Rating_Teacher />} />
 
       </Routes>
       <Footer />

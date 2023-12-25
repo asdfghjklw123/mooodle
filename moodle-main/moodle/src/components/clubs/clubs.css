@@ -6,16 +6,18 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-.clubs-text {
-    font-size: 25px;
-    color: gray;
-    width: 60px;
-    height: 30px;
-    margin-left: 60px;
-    padding-top: 90px;
+.main-clubs {
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
-.card {
+.clubs-text {
+    background-color: #DFE2ED;
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.clubs-card {
     margin: 30px auto;
     width: 300px;
     height: 300px;
@@ -25,13 +27,13 @@
     transition: 0.4s;
 }
 
-.card .card_image {
+.clubs-card .clubs-card_image {
     width: inherit;
     height: inherit;
     border-radius: 40px;
 }
 
-.card .card_image img {
+.clubs-card .clubs-card_image img {
 
     width: inherit;
     height: inherit;
@@ -43,7 +45,7 @@
     margin-bottom: 30px;
 }
 
-.card .card_title {
+.clubs-card .clubs-card_title {
     text-align: center;
     border-radius: 0px 0px 40px 40px;
     font-family: sans-serif;
@@ -53,17 +55,17 @@
     height: 40px;
 }
 
-.card:hover {
+.clubs-card:hover {
     transform: scale(0.9, 0.9);
     box-shadow: 2px 2px 15px 8px rgba(33, 33, 33, 0.25),
         -2px -2px 15px 8px rgba(0, 0, 0, 0.22);
 }
 
-.title-black {
+.clubs-title-black {
     color: black;
 }
 
-.title-white {
+.clubs-title-white {
     color: white;
 }
 
