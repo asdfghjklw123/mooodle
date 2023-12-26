@@ -1,0 +1,74 @@
+.cards-list {
+    margin-top: 10px;
+    z-index: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.clubs-text {
+    font-size: 25px;
+    color: gray;
+    width: 60px;
+    height: 30px;
+    margin-left: 60px;
+    padding-top: 90px;
+}
+
+.card {
+    margin: 30px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 15px 4px rgba(0, 0, 0, 0.25), -2px -2px 15px 3px rgba(0, 0, 0, 0.22);
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.card .card_image {
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+}
+
+.card .card_image img {
+
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+}
+
+#dance-img img{
+    margin-bottom: 30px;
+}
+
+.card .card_title {
+    text-align: center;
+    border-radius: 0px 0px 40px 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -80px;
+    height: 40px;
+}
+
+.card:hover {
+    transform: scale(0.9, 0.9);
+    box-shadow: 2px 2px 15px 8px rgba(33, 33, 33, 0.25),
+        -2px -2px 15px 8px rgba(0, 0, 0, 0.22);
+}
+
+.title-black {
+    color: black;
+}
+
+.title-white {
+    color: white;
+}
+
+@media all and (max-width: 500px) {
+    .card-list {
+        flex-direction: column;
+    }
+}
